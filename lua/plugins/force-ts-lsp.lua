@@ -6,7 +6,7 @@ return {
       opts.servers = opts.servers or {}
 
       opts.servers.denols = {
-        enabled = false,
+        -- enabled = false,
         root_dir = util.root_pattern("deno.json", "deno.jsonc"),
       }
 
